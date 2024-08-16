@@ -5,3 +5,6 @@ fileChangeLogs:
   - .env
   - src/app/components/EmailSection.jsx
   - '.1024'
+  - src/app/components/LoginPage.jsx
+  - src/app/layout.js
+  - src/app/components/Navbar.jsx

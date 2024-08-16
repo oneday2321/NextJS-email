@@ -57,6 +57,12 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+          <div className="navbar">
+            <Link href='/login'>
+              <button className='login-button'>Login</button>
+            </Link>
+            {/* Other navbar elements */}
+          </div>
         </div>
       </div>
       {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
