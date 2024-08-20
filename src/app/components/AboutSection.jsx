@@ -50,6 +50,15 @@ const AboutSection = () => {
     });
   };
 
+  const handleDownloadCV = () => {
+    const link = document.createElement("a");
+    link.href = "https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.3.tgz";
+    link.download = "apache-jmeter-5.6.3.tgz";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
@@ -90,6 +99,12 @@ const AboutSection = () => {
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
+          <button
+            className="mt-8 px-4 py-2 bg-blue-500 text-white rounded"
+            onClick={handleDownloadCV}
+          >
+            Download CV
+          </button>
         </div>
       </div>
     </section>
