@@ -37,8 +37,6 @@ next-env.d.ts
 # Clacky-specific ignores
 cython_debug/
 .git/
-.1024.nix
-.1024nix
 .1024feature*
 .nfs*
 *.dll
