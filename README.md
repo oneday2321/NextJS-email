@@ -1,6 +1,17 @@
+功能验证
 # Portfolio Website
 
 This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
+
+## Installation
+ive design.
+ive design.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/judygab/nextjs-portfolio.git`
+2. Navigate to the project directory: `cd portfolio-website`
+3. Install the dependencies: `npm install`
 
 ## Installation
 
@@ -29,7 +40,6 @@ The following dependencies are required for this project:
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the 234423license.234242342423234test testest  001 003 004
 
 0920 1706  第一次  重新提交
-
 
 
 
