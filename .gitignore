@@ -33,3 +33,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Clacky-specific ignores
+/dist/
+.env
+.firebase/
+.sass-cache/

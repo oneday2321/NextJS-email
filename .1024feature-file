@@ -5,3 +5,4 @@ fileChangeLogs:
   - .env
   - src/app/components/EmailSection.jsx
   - '.1024'
+  - .gitignore
