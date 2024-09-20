@@ -35,7 +35,15 @@ yarn-error.log*
 next-env.d.ts
 
 # Clacky-specific ignores
-/dist/
+cython_debug/
+.git/
+.1024feature*
+.nfs*
+*.dll
+.paas-unit-*
+core.*
+.breakpoints
 .env
+/dist/
 .firebase/
 .sass-cache/
