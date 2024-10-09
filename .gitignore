@@ -47,3 +47,5 @@ core.*
 /dist/
 .firebase/
 .sass-cache/
+# Additional Clacky-specific ignores
+# Add any additional rules necessary for the Clacky environment here without duplicating existing rules.
