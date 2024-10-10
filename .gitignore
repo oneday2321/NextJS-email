@@ -33,3 +33,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Clacky Env Files
+.1024.nix
+.1024nix
+# System and Version Control Files
+.git/
+# Dependencies and Build Artifacts
+node_modules/
+# Logs, Temporary, and Backup Files
+*.log
+# Language and Framework Specific Files
+npm-debug.log*
