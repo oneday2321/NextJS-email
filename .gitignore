@@ -33,19 +33,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Clacky-specific ignores
-cython_debug/
-.git/
-.1024feature*
-.nfs*
-*.dll
-.paas-unit-*
-core.*
-.breakpoints
-.env
-/dist/
-.firebase/
-.sass-cache/
-# Additional Clacky-specific ignores
-# Add any additional rules necessary for the Clacky environment here without duplicating existing rules.
