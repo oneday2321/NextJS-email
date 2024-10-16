@@ -5,3 +5,5 @@ fileChangeLogs:
   - package.json
   - .next
   - README.md
+  - .pnpm-store
+  - pnpm-lock.yaml
