@@ -4,3 +4,4 @@ fileChangeLogs:
   - .gitignore
   - package.json
   - .next
+  - README.md
