@@ -1,1 +1,2 @@
 addtestfile.txt: This is a new file added for testing purposes.
+The portfolio website showcases various sections such as Hero Section, About Section, Project Section, and more. Each section has specific functionalities including, but not limited to, showcasing skills, displaying projects, listing achievements, and providing contact information. Built using Next.js and Tailwind CSS, this site offers a responsive and clean design.
