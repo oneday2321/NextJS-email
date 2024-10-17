@@ -9,3 +9,4 @@ fileChangeLogs:
   - pnpm-lock.yaml
   - src/app/api/send/route.js
   - addtestfile.txt
+  - src/app/components/ProjectsSection.jsx

@@ -110,14 +110,12 @@ const ProjectsSection = () => {
             animate={isInView ? "animate" : "initial"}
             transition={{ duration: 0.3, delay: index * 0.4 }}
           >
-            <ProjectCard
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              imgUrl={project.image}
-              gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
-            />
+            <motion.button
+              onClick={() => window.open(project.previewUrl, '_blank')}
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            >
+              Download
+            </motion.button>
           </motion.li>
         ))}
       </ul>
