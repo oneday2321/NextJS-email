@@ -10,3 +10,7 @@ fileChangeLogs:
   - src/app/api/send/route.js
   - addtestfile.txt
   - src/app/components/ProjectsSection.jsx
+  - src/app/components/NumberGuessingGame.jsx
+  - src/app/page.js
+  - src/app/number-guessing-game.js
+  - src/app/number/number-guessing-game.js

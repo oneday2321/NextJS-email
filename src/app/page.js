@@ -5,6 +5,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
+        <Link href="/number" className="block mt-8 text-center bg-blue-500 text-white rounded px-4 py-2">
+          Play Number Guessing Game
+        </Link>
       </div>
       <Footer />
     </main>
