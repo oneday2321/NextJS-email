@@ -7,13 +7,17 @@ const variants = {
 };
 
 const TabButton = ({ active, selectTab, children }) => {
+  // Determine the button's text color based on active state
   const buttonClasses = active ? "text-white" : "text-[#ADB7BE]";
 
+  // Render the button with a click handler and animation
   return (
     <button onClick={selectTab}>
+      // Display the tab label
       <p className={`mr-3 font-semibold hover:text-white ${buttonClasses}`}>
         {children}
       </p>
+      // Animated underline showing the active state
       <motion.div
         animate={active ? "active" : "default"}
         variants={variants}
@@ -22,5 +26,4 @@ const TabButton = ({ active, selectTab, children }) => {
     </button>
   );
 };
-
 export default TabButton;
