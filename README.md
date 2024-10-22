@@ -27,8 +27,3 @@ The following dependencies are required for this project:
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
-1234
-asdfasdfasdf嗡嗡嗡为为为为
-1234444为为为为为
-
-看看代码是不是最新的
