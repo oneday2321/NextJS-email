@@ -1,0 +1,8 @@
+fileChangeLogs:
+  - .pnpm-store
+  - node_modules
+  - .gitignore
+  - '.1024'
+  - src/app/components/TabButton.jsx
+  - src/app/components/ProjectTag.jsx
+  - src/app/components/ProjectsSection.jsx
